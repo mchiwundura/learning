@@ -73,6 +73,20 @@ function checkOut(name, movie, filmList, customerList) {
 	rentedMovies.front();
 }
 
+function checkin(name, movie, filmList, customerList) {
+	if (customerList.contains(new Customer(name, movie))) {
+		customerList.remove(new Customer(name, movie));
+		rentedMovies.remove(new Movie(movie));
+		filmList.append(movie);
+	} else {
+		console.log(name + " did not rent " + movie + ".");
+	}
+	movieList.front();
+	customerList.front();
+	rentedMovies.front();
+}
+
+// lets have the following as a while loop for the running of the program
 console.log("Available movies:");
 displayList(movieList);
 console.log("\nEnter your name: ");
