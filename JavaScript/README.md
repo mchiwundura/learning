@@ -1,0 +1,2 @@
+# JavaScript Learning Journey
+Welcome to my JavaScript Learning Journey repository! Here, I am dedicated to mastering JavaScript by exploring the concepts and techniques presented in the book "Data Structures and Algorithms with JavaScript" by Michael McMillan. This repository serves as a comprehensive documentation of my progress, featuring examples, abstract data types, and various programs that I develop along the way.
